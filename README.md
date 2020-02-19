@@ -1,2 +1,0 @@
-# dockerfiles
-Bioinformatics dockerfiles
