@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:latest
+FROM frolvlad/alpine-miniconda3:latest
 MAINTAINER gavieira <gabrieldeusdeth@gmail.com>
 
 ##Adding bioconda to conda software channels
@@ -13,4 +13,4 @@ RUN  conda install -c bioconda wise2
 
 ##Finally, containers will open up at the /mnt directory, where volumes should be mounted
 
-WORKDIR /mnt
+WORKDIR /root
