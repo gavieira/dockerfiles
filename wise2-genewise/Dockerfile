@@ -11,6 +11,6 @@ RUN conda config --add channels defaults && \
 
 RUN  conda install -c bioconda wise2
 
-##Finally, containers will open up at the /mnt directory, where volumes should be mounted
+##Finally, containers will open up at the /root directory, where volumes should be mounted
 
 WORKDIR /root
