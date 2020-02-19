@@ -11,6 +11,10 @@ RUN conda config --add channels defaults && \
 
 RUN  conda install -c bioconda wise2
 
+##Setting the WISECONFIGDIR variable
+
+ENV WISECONFIGDIR=/opt/conda/pkgs/wise2-2.4.1-h08bb679_0/share/wise2/wisecfg
+
 ##Finally, containers will open up at the /root directory, where volumes should be mounted
 
 WORKDIR /root
