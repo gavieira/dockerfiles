@@ -1,7 +1,7 @@
 ## To run this container:
 
 ```
-docker run -it --name genewise -v ~:/root
+docker run -it --name genewise -v ~:/root gavieira/wise2-genewise:latest
 ```
 <br/>
 
